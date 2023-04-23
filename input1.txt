@@ -1,0 +1,150 @@
+#include<bits/stdc++.h>
+#define ll long long
+#define endline "\n"
+using namespace std;
+1int maximum(int a,int b) {return max(a,b);}
+
+2int maximum(int a,int b) {
+    return max(a,b);
+}
+
+3int maximum(int a,int b)
+{
+    return max(a,b);
+}
+
+4int main(){
+    int index=0;
+    //function
+    cout<<maximum(5,6);
+
+
+    5for (int i = 0; i < 5; ++i)
+    {
+        cout<<"One"<<endline;
+        cout<<"picec"<<endline;
+    }
+
+
+    6for (int i = 0; i < 7; ++i){
+        cout<<"One"<<endline;
+        cout<<"picec"<<endline;
+    }
+
+
+    7for (int i = 0; i < 8; ++i){
+        cout<<"One"<<endline;
+        cout<<"picec"<<endline;}
+
+
+    8for(int i=0;i<9;i++)
+    {cout<<"lamia"<<endline;
+    }
+
+
+    9for(int i=0;i<10;i++)
+    {cout<<"lamia"<<endline;}
+
+
+    10for(int i=0;i<11;i++) cout<<"lamia"<<endline;
+
+
+    11while(index!=5){
+        cout<<"One Picec"<<endline;
+        index+=1;
+    }
+
+
+    12while(index!=5){
+        cout<<"One Picec"<<endline;
+        index+=1;}
+
+
+    13while((index++)!=5){cout<<"lamia";}
+
+
+    14while((index++)!=5) cout<<"lamia";
+
+
+   15for(int i=0;i<5;i++){
+        16for(int j=0;j<5;j++){
+            cout<<"ONe"<<endline;
+            cout<<"Picec"<<endline;
+        }
+   }
+
+
+   17while((index++)!=5){
+        18while((index++)!=5){
+            cout<<"one"<<endline;
+            cout<<"picec"<<endline;
+        }
+   }
+
+
+   19for(int i=0;i<5;i++){
+        20for(int j=0;j<5;j++){
+            21for(int k=0;k<5;k++){
+                cout<<"one"<<endline;
+                cout<<"picec"<<endline;
+            }
+        }
+   }
+
+
+   22for(int i=0;i<5;i++){
+        23for(int j=0;j<5;j++)
+            24for(int k=0;k<5;k++){
+                cout<<"one"<<endline;
+                cout<<"picec"<<endline;
+            }
+
+   }
+
+
+   25for(int i=0;i<5;i++){
+        26if(!index){
+            27for(int k=0;k<5;k++){
+                cout<<"one"<<endline;
+                cout<<"picec"<<endline;
+            }
+        }
+   }
+
+   28for(int i=0;i<5;i++){
+        29if(!index){
+            30for(int k=0;k<5;k++){
+                cout<<"one"<<endline;
+                cout<<"picec"<<endline;
+            }
+        }
+   }
+
+    31do cout<<"One Picec"<<endline;
+    while((index++)<5);
+
+    string name="lamia";
+
+    32do{cout<<"One Picec"<<endline;}
+    while((index++)<5);
+
+    int a,b=0;
+
+    33do{
+        cout<<"One Picec"<<endline;
+        index++;
+    }
+    while(index<5);
+
+    int i=0;
+    34for(;i<5;i++){
+        cout<<"lamia";
+    }
+
+    int i;
+    35for(i=0;i<5;i++){
+        cout<<"lamia";
+    }
+
+    return 0;
+}

@@ -1,0 +1,51 @@
+#include<bits/stdc++.h>
+#define ll long long
+#define endline "\n"
+using namespace std;
+int main(){
+     for(int i=0;i<20;i=i+1){
+        cout<<"OnePiece"<<endline;
+        i++;
+    }
+    for(int i=10;i>0;i=i-1){
+        cout<<"OnePiece"<<endline;
+        i--;
+    }
+     for(int i=0;i<5;i++){
+        for(int j=0;j<4;j++){
+            cout<<"lamia";
+        }
+    }
+    for(int i=0;i<5;i++){
+        for(int j=0;j<4;j++){
+            for(int k=0;k<5;k++){
+                cout<<"lamia";
+            }
+        }
+    }
+    int k=0
+    for(int i=0;i<5;i++){
+        for(int j=0;j<6;j++){
+           while(k<10){
+                cout<<"lamia"<<endline;
+                k=k+1;
+            }
+        }
+    }
+    int j;
+    int k=0;
+    while(k<10){
+        cout<<"lamia"<<endline;
+        k=k+3;
+    }
+    int m=2;
+    do{
+        cout<<"lamia";
+        m++;
+    }
+    while(m<5);
+
+
+
+    return 0;
+}
