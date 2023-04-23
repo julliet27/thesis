@@ -1,0 +1,254 @@
+﻿#include<bits/stdc++.h>
+#define ll long long
+#define endline "\n"
+using namespace std;
+
+
+///////Test:01
+int maximum(int a,int b) {return max(a,b);}
+
+
+////// Test:02
+int maximum(int a,int b) {
+    return max(a,b);
+}
+
+
+////// Test:03
+int maximum(int a,int b)
+{
+    return max(a,b);
+}
+
+
+int main(){
+    int index=0;
+    //function
+    cout<<maximum(5,6);
+
+
+    ////// Test:05
+    for (int i = 0; i < 5; ++i)
+    {
+        cout<<"One"<<endline;
+        cout<<"picec"<<endline;
+    }
+
+
+    ////// Test:06
+    for (int i = 0; i < 7; ++i){
+        cout<<"One"<<endline;
+        cout<<"picec"<<endline;
+    }
+
+
+    ////// Test:07
+    for (int i = 0; i < 8; ++i){
+        cout<<"One"<<endline;
+        cout<<"picec"<<endline;}
+
+
+      
+
+
+////// Test:08
+    for(int i=0;i<9;i++)
+    {cout<<"lamia"<<endline;
+    }
+
+
+////// Test:09
+    for(int i=0;i<10;i++)
+    {cout<<"lamia"<<endline;}
+
+
+////// Test:10
+    for(int i=0;i<11;i++) cout<<"lamia"<<endline;
+
+
+////// Test:11
+    while(index!=5){
+        cout<<"One Picec"<<endline;
+        index+=1;
+    }
+
+
+////// Test:12
+    while(index!=5){
+        cout<<"One Picec"<<endline;
+        index+=1;}
+
+
+////// Test:13
+    while((index++)!=5){cout<<"lamia";}
+
+
+////// Test:14
+    while((index++)!=5) cout<<"lamia";
+
+
+////// Test:15
+   for(int i=0;i<5;i++){
+        for(int j=0;j<5;j++){
+            cout<<"ONe"<<endline;
+            cout<<"Picec"<<endline;
+        }
+   }
+
+
+////// Test:16
+   while((index++)!=5){
+        while((index++)!=5){
+            cout<<"one"<<endline;
+            cout<<"picec"<<endline;
+        }
+   }
+
+
+////// Test:17
+   for(int i=0;i<5;i++){
+        for(int j=0;j<5;j++){
+            for(int k=0;k<5;k++){
+                cout<<"one"<<endline;
+                cout<<"picec"<<endline;
+            }
+        }
+   }
+
+
+////// Test:18
+   for(int i=0;i<5;i++){
+        for(int j=0;j<5;j++)
+            for(int k=0;k<5;k++){
+                cout<<"one"<<endline;
+                cout<<"picec"<<endline;
+            }
+
+
+   }
+
+
+////// Test:19
+   for(int i=0;i<5;i++){
+        if(!index){
+            for(int k=0;k<5;k++){
+                cout<<"one"<<endline;
+                cout<<"picec"<<endline;
+            }
+        }
+   }
+
+
+////// Test:20
+   for(int i=0;i<5;i++){
+        if(!index){
+            for(int k=0;k<5;k++){
+                cout<<"one"<<endline;
+                cout<<"picec"<<endline;
+            }
+        }
+   }
+
+
+////// Test:31
+    do cout<<"One Picec"<<endline;
+    while((index++)<5);
+
+
+    string name="lamia";
+
+
+////// Test:32
+    do{cout<<"One Picec"<<endline;}
+    while((index++)<5);
+
+
+    int a,b=0;
+
+
+////// Test:33
+    do{
+        cout<<"One Picec"<<endline;
+        index++;
+    }
+    while(index<5);
+
+
+////// Test:34
+    int i=0;
+    for(;i<5;i++){
+        cout<<"lamia";
+    }
+
+
+////// Test:35
+    int i;
+    for(i=0;i<5;i++){
+        cout<<"lamia";
+    }
+
+
+////// Test:36
+     for(int i=0;i<20;i=i+1){
+        cout<<"OnePiece"<<endline;
+        i++;
+    }
+
+
+////// Test:37
+     for(int i=10;i>0;i=i-1){
+        cout<<"OnePiece"<<endline;
+        i--;
+    }
+
+
+
+
+
+
+
+
+
+
+////// Test:38
+      for(int i=0;i<5;i++){
+        for(int j=0;j<4;j++){
+            cout<<"lamia";
+        }
+    }
+
+
+////// Test:39
+     int k=0
+    for(int i=0;i<5;i++){
+        for(int j=0;j<6;j++){
+           while(k<10){
+                cout<<"lamia"<<endline;
+                k=k+1;
+            }
+        }
+    }
+
+
+////// Test:40
+      int j;
+    int k=0;
+    while(k<10){
+        cout<<"lamia"<<endline;
+        k=k+3;
+    }
+
+
+////// Test:41
+      int m=2;
+    do{
+        cout<<"lamia";
+        m++;
+    }
+    while(m<5);
+////// Test:42
+     
+
+
+    return 0;
+}
